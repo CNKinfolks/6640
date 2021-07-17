@@ -6,7 +6,7 @@
   "author": "",
   "description": "",
   "scripts": {
-    "browsersync": "browser-sync start --directory --server ./public --files ./public/* --startPath index.html",
+    "browsersync": "browser-sync start --directory --server ./public --files ./public/* --startPath /public/index.html",
     "clean": "rimraf public/*",
     "copy-assets": "cpx \"src/assets/**/*.*\" public/",
     "copy-js-bootstrap": "cpx \"node_modules/bootstrap/dist/js/*\" public/js/bootstrap/",
