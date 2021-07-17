@@ -10,11 +10,54 @@ html(lang="en")
         link(rel="icon", href="favicon.ico")
     body
         div(class="")
+            section(class="bg-dark")
+                nav(class="navbar navbar-dark navbar-expand-lg")
+                    div(class="container")
+                        a(class="navbar-brand h4 text-decoration-none text-white", href="#")
+                            img(src="zeus-assets/logo/logo-zeus-white.svg", alt="", style="height: 28px;", width="auto")
+                        div(class="d-lg-none")
+                            button(class="btn btn-sm navbar-burger")
+                                svg(class="d-block text-white", width="16", height="16", viewbox="0 0 20 20", xmlns="http://www.w3.org/2000/svg")
+                                    title Mobile menu
+                                    path(d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z", fill="currentColor")
+                        div(class="collapse navbar-collapse")
+                            ul(class="navbar-nav ms-auto me-4")
+                                li(class="nav-item")
+                                    a(class="nav-link", href="#") About
+                                li(class="nav-item")
+                                    a(class="nav-link", href="#") Company
+                                li(class="nav-item")
+                                    a(class="nav-link", href="#") Services
+                                li(class="nav-item")
+                                    a(class="nav-link", href="#") Testimonials
+                            div(class="d-none d-lg-block")
+                                a(class="btn btn-info", href="#") Contact Us
+                div(class="d-none navbar-menu position-relative")
+                    div(class="navbar-backdrop position-fixed top-0 start-0 end-0 bottom-0 bg-dark", style="opacity: 75%;")
+                    nav(class="position-fixed top-0 start-0 bottom-0 d-flex flex-column w-75 max-w-sm py-6 px-6 bg-white overflow-auto")
+                        div(class="d-flex align-items-center mb-10")
+                            a(class="me-auto h4 mb-0 text-decoration-none", href="#")
+                                img(src="zeus-assets/logo/logo-zeus-red.svg", alt="", style="height: 28px;", width="auto")
+                            button(class="navbar-close btn-close", type="button", aria-label="Close")
+                        div
+                            ul(class="nav flex-column")
+                                li(class="nav-item mb-4")
+                                    a(class="nav-link", href="#") About
+                                li(class="nav-item mb-4")
+                                    a(class="nav-link", href="#") Company
+                                li(class="nav-item mb-4")
+                                    a(class="nav-link", href="#") Services
+                                li(class="nav-item mb-4")
+                                    a(class="nav-link", href="#") Testimonials
+                        div(class="mt-auto")
+                            div(class="py-6")
+                                a(class="w-100 btn btn-primary", href="#") Contact Us
+                            p(class="mb-4 small text-center text-muted")
+                                span © 2021 All rights reserved.
             section(class="position-relative bg-dark pb-20")
                 nav(class="navbar navbar-dark navbar-expand-lg")
                     div(class="container-fluid")
                         a(class="navbar-brand h4 text-decoration-none", href="#")
-                            img(src="zeus-assets/logo/logo-zeus-white.svg", alt="", style="height: 28px;", width="auto")
                         div(class="d-lg-none")
                             button(class="btn btn-sm navbar-burger")
                                 svg(class="d-block text-white", width="16", height="16", viewbox="0 0 20 20", xmlns="http://www.w3.org/2000/svg")
@@ -86,7 +129,6 @@ html(lang="en")
                     nav(class="position-fixed top-0 start-0 bottom-0 d-flex flex-column w-75 max-w-sm py-6 px-6 bg-white overflow-auto")
                         div(class="d-flex align-items-center mb-10")
                             a(class="me-auto h4 mb-0 text-decoration-none", href="#")
-                                img(src="zeus-assets/logo/logo-zeus-red.svg", alt="", style="height: 28px;", width="auto")
                             button(class="navbar-close btn-close", type="button", aria-label="Close")
                         div
                             ul(class="nav flex-column")
